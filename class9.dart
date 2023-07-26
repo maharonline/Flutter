@@ -6,14 +6,39 @@ void main() {
 
   //int age = 19;
   // String result = age >= 18 ? "Allow" : "not Allow";     //Tendary Operator
-  //print(result);
+  //print(result)
 
-  print("Enter a number:");
-  String op = stdin.readLineSync()!;
-  if (op == 1) {
-    print({hamza()});
+  // print("ENter any number to get output");
+  // print("I Am HAmza");
+  // print("I MA KHan");
+
+  // print("Enter a number between 1 to 3?");
+  // String inputstring = stdin.readLineSync()!;
+  // int input = int.tryParse(inputstring) ?? 0;
+  // if (input == 1) {
+  //   print("THis is a first statement based on input");
+  // }
+  // if (input == 2) {
+  //   print("This is sa second statement based on input");
+  // }
+  // if (input == 3) {
+  //   print("This is third statement based on input");
+  // } else {
+  //   // print("Plese Rbter anumer between 1 and 3.");
+  // }
+  print("Enter a number from 1 to 3");
+  String inputstring = stdin.readLineSync()!;
+  int input = int.tryParse(inputstring) ?? 0;
+  if (input == 1) {
+    hamza();
+  }
+  if (input == 2) {
+    ahmad();
+  }
+  if (input == 3) {
+    ali();
   } else {
-    print({ahmad()});
+    print("Please Enter a number between 1 to 3");
   }
 }
 
@@ -27,10 +52,14 @@ void main() {
 // String abc = fblink!;
 // print(abc);
 
-hamza() {
-  print("I AM HAAmza Ahmad");
+void hamza() {
+  print("I am  hamza Ahmad");
 }
 
-ahmad() {
-  print("I AM a Khan");
+void ahmad() {
+  print("I am a Khan");
+}
+
+void ali() {
+  print("I am Mulim");
 }
