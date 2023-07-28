@@ -38,11 +38,6 @@ viewTask() {
   print("The Task= $task");
 }
 
-updateTask() {
-  // task.update["hamza"];
-  // print(task);
-  task[0] = "Khan";
-  print(task);
-}
+updateTask() {}
 
 deleteTask() {}
